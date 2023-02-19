@@ -1,0 +1,136 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+/* —————————————— HEADER —————————————— */
+
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .menu-open {
+        display: none;
+    }
+
+    .contacts-item {
+        font-size: 12px;
+    }
+
+    .contacts-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    .contacts {
+        font-size: 12px;
+    }
+
+    .address {
+        margin-left: auto;
+    }
+
+    .site-nav {
+        margin-right: 0;
+    }
+
+    .link.current::after {
+        top: 49px;
+    }
+
+/* —————————————— HERO —————————————— */
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+    }
+
+    .hero {
+        background-image: var(--gra), url(../images/hero-bg.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--gra), url(../images/hero-bg-2x.jpg);
+        }
+    }
+/* —————————————— FEATURES —————————————— */
+
+    .section-features {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    
+
+    .features-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    .features-list {
+        display: flex;
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .features-title {
+        text-align: left;
+    }
+
+    .features-tagline {
+        font-weight: 400;
+    }
+
+/* —————————————— TEAM —————————————— */
+    .team-list {
+        flex-basis: calc((100% - 24px) / 2);
+        row-gap: 56px;
+        column-gap: 24px;
+    }
+
+/* —————————————— CUSTOMERS —————————————— */
+
+    .customers-item {
+        width: calc((100% - 6 * 24px) / 3);
+    }
+
+    .customers-link {
+        width: 168px;
+    }
+
+    .customers-list {
+        justify-content: center;
+        column-gap: 0px;
+    }
+
+/* —————————————— FOOTER —————————————— */
+
+    .footer-container {
+        flex-direction: row;
+        column-gap: 24px;
+        align-items: baseline;
+    }
+
+    .weblogo-container {
+        display: flex;
+        align-items: normal;
+    }
+
+    .soc-title {
+        text-align: left;
+    }
+
+    .footer-form {
+        gap: 24px;
+        flex-direction: row;
+    }
+
+    .footer-div {
+        margin-right: 46px;
+    }
+}

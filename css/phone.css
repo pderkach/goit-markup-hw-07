@@ -1,0 +1,42 @@
+@media screen and (min-width: 480px) {
+
+    .container {
+        max-width: 428px;
+    }
+
+/* —————————————— HERO —————————————— */
+
+    .hero {
+        background-image: var(--gra), url(../images/hero-bg-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: var(--gra), url(../images/hero-bg-tab2x.jpg);
+        }
+
+/* —————————————— MOB-MENU —————————————— */
+
+    .mob-soc-list {
+        gap: 56px;
+    }
+
+    .mob-tel {
+        font-size: 36px;
+    }
+    }
+
+
+/* —————————————— FEATURES —————————————— */
+
+/* —————————————— ABOUT —————————————— */
+
+/* —————————————— TEAM —————————————— */
+
+/* —————————————— CUSTOMERS —————————————— */
+
+/* —————————————— FOOTER —————————————— */
+
+}
